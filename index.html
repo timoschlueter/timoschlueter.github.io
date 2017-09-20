@@ -1,73 +1,508 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Timo Schlüter by timoschlueter</title>
+	<head>
+		<title>Timo Schlüter - Software-Entwickler aus Braunschweig</title>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Timo Schlüter - Software-Entwickler aus Braunschweig" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Timo Schlüter</h1>
-        <p>GitHub Projects and Portfolio</p>
+		<!-- Libs -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700italic,700,900,900italic' rel='stylesheet' type='text/css'>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- Customization -->
+		<link rel="stylesheet" href="https://bootswatch.com/yeti/bootstrap.min.css">
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<link rel="icon" href="favicon.ico">
+		
+		<!-- GA -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-46375088-6', 'auto');
+		  ga('send', 'pageview');
+		</script>
+		<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+		<script type="text/javascript">
+		    window.cookieconsent_options = {"message":"Diese Website benutzt Cookies um das bestmögliche Nutzungserlebnis bereitzustellen.","dismiss":"Verstanden","learnMore":"Mehr Informationen","link":null,"theme":"light-bottom"};
+		</script>
+		
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+		<!-- End Cookie Consent plugin -->
+	</head>
+	<body>
+		<nav class="navbar navbar-default" style="text-transform:uppercase;">
+		  <div class="container">
+			<div class="navbar-header">
+			  <a class="navbar-brand" href="#">Timo Schl&uuml;ter</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="#kontakt">Kontakt</a></li>
+				<!--<li><a href="#ueber-mich">&Uuml;ber mich</a></li>-->
+				<li><a href="#lebenslauf">Lebenslauf</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#skills">Skills</a></li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
 
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="page-header">
+						<h3 id="kontakt">KONTAKT</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-4">
+						<h4>ANSCHRIFT</h4>
+						<p>
+							Ernst-Amme-Straße 3<br/>
+							38114 Braunschweig
+						</p>
+						<br />
+						<h4>TELEFON</h4>
+						<p>
+							+49 (1577) 7818466
+						</p>
+					</div>
+					<div class="col-md-4">
+						<h4>MAIL</h4>
+						<p>
+							<a href="mailto:timo.schlueter@me.com">timo.schlueter@me.com</a>
+						</p>
+						<br />
+						<h4>SOZIALE NETZWERKE</h4>
+						<p>
+							<a href="https://twitter.com/tmuuh"><i class="fa fa-twitter-square"></i> Twitter</a><br />
+							<a href="http://www.facebook.com/timo.schlueter"><i class="fa fa-facebook-square"></i> Facebook</a><br />
+							<a href="https://www.xing.com/profiles/Timo_Schlueter4"><i class="fa fa-xing-square"></i> XING</a><br />
+							<a href="https://github.com/timoschlueter"><i class="fa fa-github-square"></i> GitHub</a><br />
+						</p>
+					</div>
+					<div class="col-md-3 col-md-offset-1">
+						<img src="images/me.jpg" alt="Timo Schlueter" class="img-thumbnail" />
+					</div>
+				</div>
+			</div>
+		</div>
+			<!--<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="page-header">
+							<h3 id="ueber-mich">&Uuml;BER MICH</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<br/>
+						<blockquote class="blockquote-reverse">
+						  <p>Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking.</p>
+						  <footer>Steve Jobs</footer>
+						</blockquote>
+					</div>
+				</div>
+			</div>-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="page-header">
+							<h3 id="lebenslauf">LEBENSLAUF</h3>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+				<div class="col-md-12">
+					<ul class="timeline">
+						<li>
+						  <div class="timeline-badge"><i class="fa fa-book"></i></div>
+						  <div class="timeline-panel">
+							<div class="timeline-heading">
+							  <h4 class="timeline-title">Grundschule an der Wiesenstraße</h4>
+								<p><small class="text-muted"><i class="fa fa-clock-o"></i> Juli 1994 - Juli 1998<br /><i class="fa fa-building-o"></i> Wiesenstraße 2b, 38259 Salzgitter</small></p>
+							</div>
+							<div class="timeline-body">
+								<!--<dl>
+										<dt>Nachweise</dt>
+										<dd><a href="#"><i class="fa fa-file-pdf-o"></i> Zeugnis</a></dd>
+								</dl>-->
+							</div>
+						  </div>
+						</li>
+						<li class="timeline-inverted">
+						  <div class="timeline-badge"><i class="fa fa-book"></i></div>
+						  <div class="timeline-panel">
+							<div class="timeline-heading">
+							  <h4 class="timeline-title">Orientierungsstufe an der Wiesenstraße</h4>
+								<p><small class="text-muted"><i class="fa fa-clock-o"></i> Juli 1998 - Juli 2000<br /><i class="fa fa-building-o"></i> Wiesenstraße 2b, 38259 Salzgitter</small></p>
+							</div>
+							<div class="timeline-body">
+								<!--<dl>
+										<dt>Nachweise</dt>
+										<dd><a href="#"><i class="fa fa-file-pdf-o"></i> Zeugnis</a></dd>
+								</dl>-->
+							</div>
+						  </div>
+						</li>
+						<li>
+						  <div class="timeline-badge"><i class="fa fa-book"></i></div>
+						  <div class="timeline-panel">
+							<div class="timeline-heading">
+							  <h4 class="timeline-title">Albert-Schloenbach-Realschule</h4>
+								<p><small class="text-muted"><i class="fa fa-clock-o"></i> Juli 2000 - Juli 2004<br /><i class="fa fa-building-o"></i> Friedenstraße 4, 38259 Salzgitter</small></p>
+							</div>
+							<div class="timeline-body">
+								<dl>
+										<dt>Abschluss</dt>
+										<dd>Erweiterter Realschulabschluss</dd>
+								</dl>
+							</div>
+						  </div>
+						</li>
+						<li class="timeline-inverted">
+						  <div class="timeline-badge"><i class="fa fa-book"></i></div>
+						  <div class="timeline-panel">
+							<div class="timeline-heading">
+							  <h4 class="timeline-title">Fachgymnasium für Informationstechnik</h4>
+								<p><small class="text-muted"><i class="fa fa-clock-o"></i> Juli 2004 - Juli 2005<br /><i class="fa fa-building-o"></i> Hans-Böckler-Ring 18-20, 38228 Salzgitter</small></p>
+							</div>
+							<div class="timeline-body">
+								<dl>
+										<dt>Abschluss</dt>
+										<dd>Schulischer Teil der Fachhochschulreife</dd>
+								</dl>
+							</div>
+						  </div>
+						</li>
+						<li>
+						  <div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
+						  <div class="timeline-panel">
+							<div class="timeline-heading">
+							  <h4 class="timeline-title">Ausbildung zum Fachinformatiker Systemintegration</h4>
+								<h5 class="timeline-title">Rechenzentrum TU Clausthal</h5>
+								<p><small class="text-muted"><i class="fa fa-clock-o"></i> Juli 2005 - Juli 2008<br /><i class="fa fa-building-o"></i> Adolph-Roemer-Straße 2a, 38678 Clausthal-Zellerfeld</small></p>
+							</div>
+							<div class="timeline-body">
+								<dl>
+									<dt>Netzwerktechnik</dt>
+									<dd>Planung, Rollout und Administration der Netzwerkinfrastruktur des Campus der TU Clausthal, basierend auf Hardware von CISCO und Alcatel-Lucent.</dd>
+									<dd>Mitarbeit an der Einführung des Campus-WLAN "WiTUC" und "eduroam".</dd>
+								</dl>
+								<dl>
+										<dt>Betriebssysteme</dt>
+										<dd>Installation und Administration von RedHat, Gentoo, Ubuntu und Debian Systemen auf Hardware (Dell), sowie einer Virtualisierungsumgebung (VMware).</dd>
+								</dl>
+								<dl>
+										<dt>Programmierung</dt>
+										<dd>Erstellung von Skripten in Bash, Perl und Python sowie der Entwicklung eines Programmes zum automatisierten Login in das "WiTUC"-WLAN in Qt.</dd>
+								</dl>
+								<hr />
+								<dl>
+										<dt>Abschl&uuml;sse</dt>
+										<dd>Fachinformatiker Systemintegration (IHK)</dd>
+										<dd>Fachhochschulreife</dd>
+								</dl>
+							</div>
+						  </div>
+						</li>
+					</ul>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="timeline">
+						<li class="timeline-inverted">
+						  <div class="timeline-badge"><i class="fa fa-users"></i></div>
+						  <div class="timeline-panel">
+							<div class="timeline-heading">
+							  <h4 class="timeline-title">Zivildienst</h4>
+								<h5 class="timeline-title">Elisabethstift - Jugendhilfe der Diakonie gemeinnützige GmbH</h5>
+								<p><small class="text-muted"><i class="fa fa-clock-o"></i> September 2008 - September 2009<br /><i class="fa fa-building-o"></i> Windmühlenbergstraße 18, 38259 Salzgitter</small></p>
+							</div>
+							<div class="timeline-body">
+							</div>
+						  </div>
+						</li>
+						<li>
+						  <div class="timeline-badge"><i class="fa fa-university"></i></div>
+						  <div class="timeline-panel">
+							<div class="timeline-heading">
+							  <h4 class="timeline-title">Studium 'Praktische Informatik'</h4>
+								<h5 class="timeline-title">Ostfalia Hochschule für angewandte Wissenschaften</h5>
+								<p><small class="text-muted"><i class="fa fa-clock-o"></i> September 2009 - Januar 2010<br /><i class="fa fa-building-o"></i> Salzdahlumer Str. 46/48, 38302 Wolfenbüttel</small></p>
+							</div>
+							<div class="timeline-body">
+							</div>
+						  </div>
+						</li>
+						<li class="timeline-inverted">
+						  <div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
+						  <div class="timeline-panel">
+							<div class="timeline-heading">
+							  <h4 class="timeline-title">Engineer</h4>
+								<h5 class="timeline-title">GESIS Gesellschaft für Informationssysteme mbH</h5>
+								<p><small class="text-muted"><i class="fa fa-clock-o"></i> Februar 2010 - heute<br /><i class="fa fa-building-o"></i> GESIS Gesellschaft für Informationssysteme mbH</small></p>
+							</div>
+							<div class="timeline-body">
+								<dl>
+									<dt>Kundenprojekte</dt>
+									<dd>Entwicklung und Betrieb der konzernweiten Identity Management Lösung für mehr als 12.000 Mitarbeiter der Salzgitter AG.</dd>
+									<dd>Entwicklung und Betrieb der zentralen Monitoring-Lösung mit Integration in ITIL-Prozesse.</dd>
+								</dl>
+								<dl>
+									<dt>Inhouse Lösungen</dt>
+									<dd>Entwicklung und Betrieb von Applikationen zur Unterstützung des Betriebs im Rechenzentrum der Salzgitter AG.</dd>
+									<dd>Administration und Erweiterung der Loadbalancing-Infrastruktur (F5 BIG-IP LTM).</dd>
+									<dd>Administration und Erweiterung der Server-Infrastruktur (Microsoft Windows Server, SUSE Linux Enterprise Server).</dd>
+									<dd>Aufbau der Infrastruktur zur Entwicklung von Microservices auf Basis der Container-Technologie Docker.</dd>
+								</dl>
+							</div>
+						  </div>
+						</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="page-header">
+						<h3 id="portfolio">PORTFOLIO</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-md-6">
+					<div class="thumbnail">
+					  <img src="images/projects/runtastic.png" alt="..." style="max-height:300px">
+					  <div class="caption">
+							<h3>PHP Runtastic</h3>
+							<p>
+								<small class="text-muted">Sprache: PHP</small><br />
+								<small class="text-muted">Plattform: Plattformunabhängig</small>
+							</p>
+							<p>
+								PHP Runtastic ist eine PHP-Klasse, die eine Schnittstelle zum Auslesen von Runtastic Aktivitätsdaten bereitstellt. Mit mehr als 200 Benutzern ist PHP Runtastic eines meiner erfolgreichsten Projekte auf GitHub.
+							</p>
+							<p>
+								<a href="https://github.com/timoschlueter/php-runtastic" target="_blank"><i class="fa fa-github-square"></i> GitHub Repository</a>
+							</p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6">
+					<div class="thumbnail">
+					  <img src="images/projects/rbtv.png" alt="..." style="max-height:300px">
+					  <div class="caption">
+							<h3>RocketBeans.TV Sendeplan App</h3>
+							<p>
+								<small class="text-muted">Sprache: Swift</small><br />
+								<small class="text-muted">Plattform: Mac (OS X)</small>
+							</p>
+							<p>
+								Mit dem Start des Twitch-Channels "RocketBeans.TV" habe ich eine unter MIT-Lizenz stehende App für Mac OS X entwickelt, die den aktuellen Sendeplan des Internet-Fernsehsenders RocketBeans.TV in der Menüleiste von OS X anzeigt. Bestandteil der App ist zudem ein Widget für die "Today"-Ansicht im OS X Notificationcenter sowie Push-Benachrichtigungen beim Start einer Sendung. Die App ist vollständig in der von Apple im Jahr 2014 vorgestellten Programmiersprache Swift entwickelt worden und ist mit 40.000 Backend-API-Calls pro Tag (Daten: Google Developer Console) eine meiner erfolgreichsten Apps.
+							</p>
+							<p>
+								<a href="https://itunes.apple.com/de/app/sendeplan-fur-rocket-beans-tv/id1160411162?mt=12" target="_blank"><i class="fa fa-apple"></i> App Store</a>
+								&nbsp;&nbsp;<a href="https://github.com/timoschlueter/RocketBeans.TV-Sendeplan" target="_blank"><i class="fa fa-github-square"></i> GitHub Repository</a>
+							</p>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-md-6">
+					<div class="thumbnail">
+					  <!--<iframe style="margin-bottom: 20px;" class="col-sm-12" height="333" src="https://www.youtube.com/embed/W491r4rHR_M" frameborder="0" allowfullscreen></iframe>-->
+					  <img src="images/projects/mein-energy-screenshot1.jpg" alt="..." style="max-height:300px">
+					  <div class="caption">
+							<h3>Mein|ENERGY</h3>
+							<p>
+								<small class="text-muted">Sprache: Swift</small><br />
+								<small class="text-muted">Plattform: iPhone/iPad (iOS)</small>
+							</p>
+							<p>
+								Mein|ENERGY ist eine iOS-App die es ermöglicht, auf das BS|Energy Kundenportal zuzugreifen. Neben Vertragsinformationen werden Verbrauchsanalysen und Nachrichten angezeigt.<br/><br />
+								Die App ist <strong>nicht im App Store</strong> erh&auml;ltlich und kann nur <a href="mailto:timo.schlueter@me.com">auf Anfrage</a> verteilt werden.
+							</p>
+							<p>
+								<a href="https://github.com/timoschlueter/mein-portal-ios" target="_blank"><i class="fa fa-github-square"></i> GitHub Repository</a>
+								&nbsp;&nbsp;<a href="https://www.youtube.com/embed/W491r4rHR_M" target="_blank"><i class="fa fa-video-camera"></i> Demo-Video</a>
+							</p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6">
+					<div class="thumbnail">
+					  <!--<iframe style="margin-bottom: 20px;" class="col-sm-12" height="333" src="https://www.youtube.com/embed/u5eFZO0txqs" frameborder="0" allowfullscreen></iframe>-->
+					  <img src="images/projects/sobtv-screenshot1.jpg" alt="..." style="max-height:300px">
+					  <div class="caption">	  
+							<h3>SobTV Media Player</h3>
+							<p>
+								<small class="text-muted">Sprache: Swift</small><br />
+								<small class="text-muted">Plattform: Apple TV (tvOS)</small>
+							</p>
+							<p>
+								Bei der SobTV Media Player App handelt es sich um eine elegante Lösung, um auf dem Apple TV (4. Generation) Zugriff auf eine umfangreiche Film- und Seriendatenbank zu erhalten.<br />
+								Die App bietet neben der Medienbibliothek eine Such- und Sortiermöglichkeit sowie eine Favoriten-Liste ("Watchlist"), auf der Filme und Serien vorgemerkt werden können.<br /><br />
+								Die App ist <strong>nicht im App Store</strong> erh&auml;ltlich und kann nur <a href="mailto:timo.schlueter@me.com">auf Anfrage</a> verteilt werden.
+							</p>
+							<!--<p>
+								<i class="fa fa-github-square"></i> GitHub Repository</span>
+							</p>-->
+						  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-6">
+					<div class="thumbnail">
+						<!--<iframe style="margin-bottom: 20px;" src="https://player.vimeo.com/video/128719597" class="col-sm-12" height="333" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+						<img src="images/projects/health-plus-screenshot1.png" alt="..." style="max-height:300px">
+						<div class="caption">
+							<h3>Health+ <small>(als Berater)</small></h3>
+							<p>
+								<small class="text-muted">Sprache: Objective-C</small><br />
+								<small class="text-muted">Plattform: iPhone (iOS)</small>
+							</p>
+							<p>
+								Health+ erweitert die Funktionen von Apple's Health App um weitere Informationen, eine detailliertere Darstellung und Möglichkeiten zur individuellen Anpassung.<br/>
+							</p>
+							<p>
+								<a href="https://itunes.apple.com/de/app/health+-ubersicht-uber-deine/id984979493?mt=8#" target="_blank"><i class="fa fa-apple"></i> App Store</a>
+								&nbsp;&nbsp;<a href="https://player.vimeo.com/video/128719597" target="_blank"><i class="fa fa-video-camera"></i> Demo-Video</a>
+							</p>
+						</div>
+					</div>
+				</div>
+					<div class="col-sm-6 col-md-6">
+						<div class="thumbnail">
+						  <img src="images/projects/sunnyportal.png" alt="..." style="max-height:300px" />
+						  <div class="caption">
+								<h3>Sunny Portal Monitor</h3>
+								<p>
+									<small class="text-muted">Sprache: C# / .NET</small><br />
+									<small class="text-muted">Plattform: Microsoft Windows</small>
+								</p>
+								<p>Sunny Portal Monitor ist eine unter MIT-Lizenz stehende, in C# und dem .NET Framework von Microsoft geschrieben Anwendung, die es ermöglicht, aktuelle Daten aus Foto-Voltaik-Systemen der SMA Solar Technology AG auszulesen. Die Daten werden aus dem so genannten "Sunny Portal" der Firma SMA ausgelesen und in einer Windows Forms Anwendung auf dem Desktop dargestellt.</p>
+								<p>
+									<a href="https://github.com/timoschlueter/Sunny-Portal-Monitor" target="_blank"><i class="fa fa-github-square"></i> GitHub Repository</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-6">
+						<div class="thumbnail">
+							<img src="images/projects/tvsoundboard-screenshot1.png" alt="..." style="max-height:300px">
+							<div class="caption">
+								<h3>TVSoundBoard</h3>
+								<p>
+									<small class="text-muted">Sprache: HTML5, PHP, JavaScript</small><br />
+									<small class="text-muted">Plattform: Plattformunabhängig</small>
+								</p>
+								<p>
+									TVSoundBoard vereint die bekanntesten Sprüche und Zitate eurer Lieblings TV- und Internet-Helden in einer praktischen WebApp.<br/>
+									Die App wurde als plattformunabhängige WebApp entwickelt und ist sowohl auf iOS als auch auf Android Geräten lauffähig.
+								</p>
+								<p>
+									<a href="http://www.tvsoundboard.de" target="_blank"><i class="fa fa-chrome"></i> WebApp</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6">
 
-        <p class="view"><a href="https://github.com/timoschlueter">View My GitHub Profile</a></p>
+					</div>
+				</div>
+			</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="page-header">
+						<h3 id="skills">SKILLS</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<dl>
+					  <dt><strong>Programmier- und Skript-Sprachen</strong></dt>
+					  <dd>Swift</dd>
+					  <dd>C#</dd>
+					  <dd>Objective-C</dd>
+					  <dd>PHP</dd>
+					  <dd>Python</dd>
+					  <dd>Perl</dd>
+					  <dd>Bash</dd>
+					  <dd>Go</dd>
+					  <dd>Javascript</dd>
+					</dl>
+				</div>
+					<div class="col-md-3">
+						<dl>
+						  <dt><strong>Cloud</strong></dt>
+						  <dd>Amazon EC2</dd>
+						  <dd>Amazon RDS</dd>
+						  <dd>Amazon DynamoDB</dd>
+						  <dd>Microsoft Azure Directory</dd>
+						  <dd>Digital Ocean</dd>
+						</dl>
+						<dl>
+						  <dt><strong>Frameworks</strong></dt>
+						  <dd>AngularJS</dd>
+							<dd>React</dd>
+							<dd>Node.js</dd>
+							<dd>Cordova</dd>
+						</dl>
+					</div>
+				<div class="col-md-3">
+					<dl>
+					  <dt><strong>Plattformen</strong></dt>
+					  <dd>Linux</dd>
+					  <dd>Solaris</dd>
+					  <dd>Windows</dd>
+					  <dd>Mac OS X</dd>
+					  <dd>iOS</dd>
+					  <dd>tvOS</dd>
+					  <dd>F5 Big-IP</dd>
+					</dl>
+				</div>
+				<div class="col-md-3">
+					<dl>
+					  <dt><strong>Software</strong></dt>
+					  <dd>Microsoft Identity Manager 2016</dd>
+					  <dd>Adobe Photoshop</dd>
+					  <dd>Adobe After Effects</dd>
+					  <dd>nginx</dd>
+					  <dd>Auto CAD</dd>
+					  <dd>SAP HCM</dd>
+					  <dd>SAP PI</dd>
+					  <dd>SAP CPS</dd>
+					  <dd>WordPress</dd>
+					  <dd>Docker</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="footer">
+		<br /><br /><br />
+			<div class="container">
 
-      </header>
-      <section>
-        <h3>
-<a id="a-few-things-about-me" class="anchor" href="#a-few-things-about-me" aria-hidden="true"><span class="octicon octicon-link"></span></a>A few things about me</h3>
-
-<p>I am a software developer born in '87 and living in Braunschweig, Germany.</p>
-
-<p>In 2010 i started working at <a href="http://www.gesis.de">GESIS Gesellschaft für Informationssysteme mbH</a>, the IT subsidiary of german steel concern <a href="http://www.salzgitter-ga.com">Salzgitter AG</a>.</p>
-
-<p>My background is in server-side applications with PHP and MySQL using LAMP stacks, although i am currently focusing on more "hip" web techniques such as AngularJS and Node. As for native app development i am looking into Swift on both the iOS and the OS X platform. My first project was an unofficial <a href="https://github.com/timoschlueter/php-runtastic">Runtastic scrapper</a> and an OS X app for the <a href="https://github.com/timoschlueter/RocketBeans.TV-Sendeplan">RocketBeans.TV Live Channel</a> on Twitch, both written in Swift.</p>
-
-<hr>
-
-<h3>
-<a id="you-want-to-hire-me" class="anchor" href="#you-want-to-hire-me" aria-hidden="true"><span class="octicon octicon-link"></span></a>You want to hire me?</h3>
-
-<p>If you have an interesting job offer, please always feel free to contact me. I may not be actively looking for a job by myself but i am always looking forward to the next challenge in my career. :)</p>
-
-<hr>
-
-<h3>
-<a id="contact-information" class="anchor" href="#contact-information" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact information</h3>
-
-<p>If you have any questions about me, my projects or anything job related, feel free to contact me using one of the following options:</p>
-
-<ul>
-<li><a href="http://www.twitter.com/tmuuh">Twitter</a></li>
-<li><a href="https://www.xing.com/profile/Timo_Schlueter4?sc_o=mxb_p">XING</a></li>
-<li><a href="http://de.linkedin.com/pub/timo-schl%C3%BCter/77/555/a6/">Linked.in</a></li>
-<li><a href="mailto:timo.schlueter@me.com">Mail</a></li>
-</ul>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-46375088-5");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
+			</div>
+		</div>
+	</body>
 </html>
