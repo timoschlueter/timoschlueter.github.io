@@ -141,3 +141,15 @@ padding-left:90px;
 .timeline-body > p + p {
   margin-top: 5px;
 }
+.page-break { 
+  height: 0;
+  page-break-after: always; 
+  margin: 0; 
+  border-top: none;
+}
+
+@media print {
+  .no-print {
+    visibility: hidden;
+  }
+}
